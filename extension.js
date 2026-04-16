@@ -49,7 +49,7 @@ class LogoMenuMenuButton extends PanelMenu.Button {
         this.add_child(this.icon);
 
         // Menu
-        this._settings.connectObject('changed::hide-softwarecentre', () => this._displayMenuItems(), this);
+        this._settings.connectObject('changed::hide-bazaar', () => this._displayMenuItems(), this);
         this._settings.connectObject('changed::hide-warehouse', () => this._displayMenuItems(), this);
         this._settings.connectObject('changed::show-power-options', () => this._displayMenuItems(), this);
         this._settings.connectObject('changed::show-gamemode', () => this._displayMenuItems(), this);
@@ -76,7 +76,7 @@ class LogoMenuMenuButton extends PanelMenu.Button {
         const showDistroShelf = this._settings.get_boolean('show-distroshelf');
         const showForceQuit = !this._settings.get_boolean('hide-forcequit');
         const showLockScreen = this._settings.get_boolean('show-lockscreen');
-        const showSoftwareCenter = !this._settings.get_boolean('hide-softwarecentre');
+        const showBazaar = !this._settings.get_boolean('hide-bazaar');
         const showWarehouse = !this._settings.get_boolean('hide-warehouse');
         const showActivitiesButton = this._settings.get_boolean('show-activities-button');
         const showLutris = this._settings.get_boolean('show-lutris');
@@ -105,8 +105,8 @@ class LogoMenuMenuButton extends PanelMenu.Button {
 
         this._addItem(new PopupMenu.PopupSeparatorMenuItem());
 
-        if (showSoftwareCenter)
-            this._addItem(new MenuItem(_('Bazaar'), () => this._openSoftwareCenter()));
+        if (showBazaar)
+            this._addItem(new MenuItem(_('Bazaar'), () => this._openBazaar()));
 
         if (showWarehouse)
             this._addItem(new MenuItem(_('Warehouse'), () => this._openWarehouse()));
@@ -227,8 +227,8 @@ class LogoMenuMenuButton extends PanelMenu.Button {
         Util.trySpawnCommandLine('/usr/bin/distroshelf-helper');
     }
 
-    _openSoftwareCenter() {
-        Util.trySpawnCommandLine(this._settings.get_string('menu-button-software-center'));
+    _openBazaar() {
+        Util.trySpawnCommandLine('/usr/bin/bazaar');
     }
 
     _openWarehouse() {

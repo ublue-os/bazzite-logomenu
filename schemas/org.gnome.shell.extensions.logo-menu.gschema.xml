@@ -27,12 +27,6 @@
       <description>Change to preffered Extensions app.</description>
     </key>
 
-    <key type="s" name="menu-button-software-center">
-      <default>"/usr/bin/bazaar"</default>
-      <summary>Menu Button Software Center</summary>
-      <description>Change the Menu Button Software Center.</description>
-    </key>
-
     <key type="s" name="menu-button-terminal">
       <default>"ptyxis --new-window"</default>
       <summary>Menu Button Terminal</summary>
@@ -59,8 +53,8 @@
 
     <key type="b" name="show-gamemode">
       <default>false</default>
-      <summary>Toggle return to gamemode visiblity</summary>
-      <description>Toggle return to gamemode visibility.</description>
+      <summary>Toggle return to Gaming Mode visiblity</summary>
+      <description>Toggle return to Gaming Mode visibility.</description>
     </key>
 
     <key type="b" name="show-lutris">
@@ -93,10 +87,10 @@
       <description>Toggle Force Quit option visibility.</description>
     </key>
 
-    <key type="b" name="hide-softwarecentre">
+    <key type="b" name="hide-bazaar">
       <default>false</default>
-      <summary>Toggle Software Centre option visibility</summary>
-      <description>Toggle Software Centre option visibility.</description>
+      <summary>Toggle Bazaar option visibility</summary>
+      <description>Toggle Bazaar option visibility.</description>
     </key>
 
     <key type="b" name="hide-warehouse">
