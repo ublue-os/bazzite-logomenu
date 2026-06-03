@@ -194,7 +194,7 @@ class LogoMenuMenuButton extends PanelMenu.Button {
     }
 
     _returnToGamingMode() {
-        Util.spawn(['steamosctl', 'switch-to-game-mode']);
+        Util.spawn(['return-to-gamemode']);
     }
 	
     _logOut() {
