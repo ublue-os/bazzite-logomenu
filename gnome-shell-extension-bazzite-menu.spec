@@ -7,7 +7,7 @@ Summary:       Logo Menu fork that provides helpful shortcuts for the Steam Deck
 
 Group:         User Interface/Desktops
 License:       GPLv2
-URL:           https://github.com/KyleGospo/Logomenu
+URL:           https://github.com/ublue-os/bazzite-logomenu
 Source0:       %{url}/archive/refs/heads/main.tar.gz
 BuildArch:     noarch
 
@@ -21,7 +21,7 @@ Requires:    gnome-shell >= 3.12
 Gnome shell extension that provides a Steam Deck icon in the top bar and helpful shortcuts. A fork of Logo Menu.
 
 %prep
-%autosetup -n Logomenu-main
+%autosetup -n bazzite-logomenu-main
 
 %install
 mkdir -p %{buildroot}%{_datadir}/gnome-shell/extensions/%{uuid}
