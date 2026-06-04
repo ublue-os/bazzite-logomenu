@@ -308,24 +308,6 @@ export const LogoMenuOptionsPage = GObject.registerClass(class LogoMenuOptionsWi
 
         menuButtonTerminalRow.add_suffix(changeTerminalInput);
 
-        // Change Software Center and build it's option in prefs
-
-        const softwareCentreRow = new Adw.ActionRow({
-            title: _('Software Center'),
-        });
-        const currentSoftwareCenter = this._settings.get_string('menu-button-software-center');
-
-        const changeSoftwareCenterInput = new Gtk.Entry({
-            valign: Gtk.Align.CENTER,
-        });
-
-        changeSoftwareCenterInput.set_text(currentSoftwareCenter);
-        changeSoftwareCenterInput.connect('changed', () => {
-            this._settings.set_string('menu-button-software-center', changeSoftwareCenterInput.get_text());
-        });
-
-        softwareCentreRow.add_suffix(changeSoftwareCenterInput);
-
         // Change System Monitor and build it's option in prefs
 
         const systemMonitorRow = new Adw.ActionRow({
@@ -362,7 +344,7 @@ export const LogoMenuOptionsPage = GObject.registerClass(class LogoMenuOptionsWi
 
         // Gamemode
         const showGamemodeRow = new Adw.ActionRow({
-            title: _('Enable Return to Gamemode Option'),
+            title: _('Enable Return to Gaming Mode Option'),
         });
         const showGamemodeSwitch = new Gtk.Switch({
             valign: Gtk.Align.CENTER,
@@ -408,21 +390,21 @@ export const LogoMenuOptionsPage = GObject.registerClass(class LogoMenuOptionsWi
 
         lockScreenOptionRow.add_suffix(showLockScreenSwitch);
 
-        // Toggle Software centre option and build it's option in prefs
-        const softwareCentreOptionRow = new Adw.ActionRow({
-            title: _('Hide Software Centre option'),
+        // Toggle Bazaar option and build it's option in prefs
+        const bazaarOptionRow = new Adw.ActionRow({
+            title: _('Hide Bazaar option'),
         });
 
-        const hideSoftwareCentreSwitch = new Gtk.Switch({
+        const hideBazaarSwitch = new Gtk.Switch({
             valign: Gtk.Align.CENTER,
         });
 
-        hideSoftwareCentreSwitch.set_active(this._settings.get_boolean('hide-softwarecentre'));
-        hideSoftwareCentreSwitch.connect('notify::active', widget => {
-            this._settings.set_boolean('hide-softwarecentre', widget.get_active());
+        hideBazaarSwitch.set_active(this._settings.get_boolean('hide-bazaar'));
+        hideBazaarSwitch.connect('notify::active', widget => {
+            this._settings.set_boolean('hide-bazaar', widget.get_active());
         });
 
-        softwareCentreOptionRow.add_suffix(hideSoftwareCentreSwitch);
+        bazaarOptionRow.add_suffix(hideBazaarSwitch);
 
         // Activities Button visibility
         const activitiesButtonVisiblityRow = new Adw.ActionRow({
@@ -493,14 +475,13 @@ export const LogoMenuOptionsPage = GObject.registerClass(class LogoMenuOptionsWi
         prefGroup1.add(menuButtonIconClickTypeRow);
         prefGroup1.add(extensionsAppRow);
         prefGroup1.add(menuButtonTerminalRow);
-        prefGroup1.add(softwareCentreRow);
         prefGroup1.add(systemMonitorRow);
 
         prefGroup2.add(showPowerOptionsRow);
         prefGroup2.add(showGamemodeRow);
         prefGroup2.add(forceQuitOptionrow);
         prefGroup2.add(lockScreenOptionRow);
-        prefGroup2.add(softwareCentreOptionRow);
+        prefGroup2.add(bazaarOptionRow);
         prefGroup2.add(showLutrisRow);
         prefGroup2.add(showSteamRow);
 
