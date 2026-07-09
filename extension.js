@@ -166,7 +166,7 @@ class LogoMenuMenuButton extends PanelMenu.Button {
     }
 
     _updateSystem() {
-        Util.spawn(['bazzite_updater']);
+        Util.spawn(['bazzite-updater']);
     }
 
     _systemPreferences() {
