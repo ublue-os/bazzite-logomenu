@@ -33,7 +33,7 @@ export const LogoMenuIconsPage = GObject.registerClass(class LogoMenuIconsWidget
     _init(settings) {
         super._init();
         this._settings = settings;
-        this.set_title('Icon');
+        this.set_title(_('Icon'));
         this.set_name('Icon');
         this.set_icon_name('image-x-generic-symbolic');
 
@@ -230,7 +230,7 @@ export const LogoMenuOptionsPage = GObject.registerClass(class LogoMenuOptionsWi
     _init(settings) {
         super._init();
         this._settings = settings;
-        this.set_title('Other Options');
+        this.set_title(_('Other Options'));
         this.set_name('Other Options');
         this.set_icon_name('emblem-system-symbolic');
 

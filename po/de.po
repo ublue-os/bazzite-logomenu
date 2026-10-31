@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Logo Menu 18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-19 01:47+0530\n"
+"POT-Creation-Date: 2026-08-03 01:20-0700\n"
 "PO-Revision-Date: 2022-11-17 23:23+0530\n"
 "Last-Translator: Heinz J. Malcharzyk <trurl.klapauzius@t-online.de>\n"
 "Language-Team: German <trurl.klapauzius@t-online.de>\n"
@@ -19,57 +19,85 @@ msgstr ""
 "X-Generator: Poedit 3.0.1\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: extension.js:75
-msgid "About My System"
-msgstr "Über diesen Computer"
-
-#: extension.js:80
+#: extension.js:92
 msgid "Activities"
 msgstr "Aktivitäten"
 
-#: extension.js:82
+#: extension.js:94
 msgid "App Grid"
 msgstr "Programmübersicht"
 
-#: extension.js:86 PrefsLib/adw.js:314
-msgid "Software Center"
-msgstr "Software-Center"
+#: extension.js:95
+msgid "Files"
+msgstr "Dateien"
 
-#: extension.js:88 PrefsLib/adw.js:332
-msgid "System Monitor"
-msgstr "Systemmonitor"
+#: extension.js:99
+msgid "Steam"
+msgstr "Steam"
 
-#: extension.js:89 PrefsLib/adw.js:294
+#: extension.js:101
+msgid "Lutris"
+msgstr "Lutris"
+
+#: extension.js:103
+msgid "Return to Gaming Mode"
+msgstr "Zum Spielmodus zurückkehren"
+
+#: extension.js:109
+msgid "Bazaar"
+msgstr "Bazaar"
+
+#: extension.js:112
+msgid "Warehouse"
+msgstr "Warehouse"
+
+#: extension.js:114
+msgid "Extension Manager"
+msgstr "Extensions Manager"
+
+#: extension.js:118
+msgid "Mission Center"
+msgstr "Mission Center"
+
+#: extension.js:119 PrefsLib/adw.js:294
 msgid "Terminal"
 msgstr "Terminal"
 
-#: extension.js:90
-msgid "Extensions"
-msgstr "Erweiterungen"
+#: extension.js:121
+msgid "DistroShelf"
+msgstr "DistroShelf"
 
-#: extension.js:94
+#: extension.js:125
 msgid "Force Quit App"
 msgstr "Beenden erzwingen"
 
-#: extension.js:99
+#: extension.js:130
 msgid "Sleep"
 msgstr "Bereitschaft"
 
-#: extension.js:100
+#: extension.js:131
 msgid "Restart..."
 msgstr "Neustart..."
 
-#: extension.js:101
+#: extension.js:132
 msgid "Shut Down..."
 msgstr "Ausschalten..."
 
-#: extension.js:105 extension.js:110
+#: extension.js:136 extension.js:142
 msgid "Lock Screen"
 msgstr "Sperren"
 
-#: extension.js:107
-msgid "Log Out..."
-msgstr "Abmelden ..."
+#: extension.js:146
+msgid "System Update"
+msgstr "Systemaktualisierung"
+
+#: extension.js:147
+msgid "About My System"
+msgstr "Über diesen Computer"
+
+#: PrefsLib/adw.js:36
+msgid "Icon"
+msgstr "Icon"
 
 #: PrefsLib/adw.js:41
 msgid "Symbolic Icons"
@@ -98,6 +126,10 @@ msgstr ""
 #: PrefsLib/adw.js:195
 msgid "Select a Custom Icon"
 msgstr ""
+
+#: PrefsLib/adw.js:233
+msgid "Other Options"
+msgstr "Weitere Optionen"
 
 #: PrefsLib/adw.js:238
 msgid "Change Defaults"
@@ -140,71 +172,97 @@ msgstr "GNOME Extensions"
 msgid "Extensions Manager"
 msgstr "Extensions Manager"
 
+#: PrefsLib/adw.js:314
+msgid "Software Center"
+msgstr "Software-Center"
+
+#: PrefsLib/adw.js:332
+msgid "System Monitor"
+msgstr "Systemmonitor"
+
 #: PrefsLib/adw.js:350
 msgid "Enable Power Options"
 msgstr "Energie-Optionen aktivieren"
 
 #: PrefsLib/adw.js:365
+msgid "Enable Return to Gamemode Option"
+msgstr "Option zur Rückkehr zum Spielmodus aktivieren"
+
+#: PrefsLib/adw.js:380
 msgid "Hide Force Quit option"
 msgstr "Option für Beenden erzwingen verbergen"
 
-#: PrefsLib/adw.js:382
+#: PrefsLib/adw.js:397
 msgid "Show Lock Screen option"
 msgstr "Option zum Sperren zeigen"
 
-#: PrefsLib/adw.js:398
+#: PrefsLib/adw.js:413
 msgid "Hide Software Centre option"
 msgstr "Software-Center-Option verbergen"
 
-#: PrefsLib/adw.js:414
+#: PrefsLib/adw.js:429
 #, fuzzy
 msgid "Show Activities Button"
 msgstr "Aktivitäten"
 
-#: PrefsLib/adw.js:430
+#: PrefsLib/adw.js:445
 msgid "Hide Icon Shadow"
 msgstr "Icon-Schatten verbergen"
 
-#: PrefsLib/adw.js:471 PrefsLib/adw.js:476
+#: PrefsLib/adw.js:461
+msgid "Show Lutris option"
+msgstr "Lutris-Option anzeigen"
+
+#: PrefsLib/adw.js:477
+msgid "Show Steam option"
+msgstr "Steam-Option anzeigen"
+
+#: PrefsLib/adw.js:523 PrefsLib/adw.js:528
 msgid "About"
 msgstr "Über dieses Programm"
 
-#: PrefsLib/adw.js:500
+#: PrefsLib/adw.js:552
 msgid "Logo Menu"
 msgstr "Logo Menu"
 
-#: PrefsLib/adw.js:507
+#: PrefsLib/adw.js:559
 msgid "Quick access menu for GNOME"
 msgstr "Schnellzugriffsmenü für GNOME"
 
-#: PrefsLib/adw.js:524
+#: PrefsLib/adw.js:576
 msgid "Logo Menu Version"
 msgstr "Logo Menu Version"
 
-#: PrefsLib/adw.js:536
+#: PrefsLib/adw.js:588
 msgid "GNOME Version"
 msgstr "GNOME Version"
 
-#: PrefsLib/adw.js:543
+#: PrefsLib/adw.js:595
 msgid "Created with love by"
 msgstr ""
 
-#: PrefsLib/adw.js:550
+#: PrefsLib/adw.js:602
 msgid "Matrix/Element room"
 msgstr ""
 
-#: PrefsLib/adw.js:566
+#: PrefsLib/adw.js:618
 msgid "Contributors"
 msgstr ""
 
-#: PrefsLib/adw.js:583
+#: PrefsLib/adw.js:635
 msgid "This program comes with absolutely no warranty."
 msgstr ""
 
-#: PrefsLib/adw.js:584
+#: PrefsLib/adw.js:636
 #, javascript-format
 msgid "See the %sGNU General Public License, version 2 or later%s for details."
 msgstr ""
+
+#~ msgid "Extensions"
+#~ msgstr "Erweiterungen"
+
+#~ msgid "Log Out..."
+#~ msgstr "Abmelden ..."
 
 #~ msgid "Software Center..."
 #~ msgstr "Software-Center"
@@ -212,18 +270,12 @@ msgstr ""
 #~ msgid "Github"
 #~ msgstr "Github"
 
-#~ msgid "Icon"
-#~ msgstr "Icon"
-
 #~ msgid ""
 #~ "<span size=\"small\">This program comes with absolutely no warranty.\n"
-#~ "See the <a href=\"https://gnu.org/licenses/old-licenses/gpl-2.0."
-#~ "html\">GNU General Public License, version 2 or later</a> for details.</"
-#~ "span>"
+#~ "See the <a href=\"https://gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU General Public License, version 2 or later</a> for details.</span>"
 #~ msgstr ""
 #~ "<span size=\"small\">Dieses Programm ist ohne jegliche Garantie.\n"
-#~ "Siehe <a href=\"https://gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU "
-#~ "General Public License, version 2 oder neuer</a> für Details.</span>"
+#~ "Siehe <a href=\"https://gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU General Public License, version 2 oder neuer</a> für Details.</span>"
 
 #~ msgid "Lock Orientation"
 #~ msgstr "Sperrbildschirm-Ausrichtung"

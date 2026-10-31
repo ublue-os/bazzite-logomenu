@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Logo Menu 18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-19 01:47+0530\n"
+"POT-Creation-Date: 2026-08-03 01:20-0700\n"
 "PO-Revision-Date: 2023-04-30 21:16+0200\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: \n"
@@ -18,57 +18,85 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.2.2\n"
 
-#: extension.js:75
-msgid "About My System"
-msgstr "Over deze computer"
-
-#: extension.js:80
+#: extension.js:92
 msgid "Activities"
 msgstr "Activiteiten"
 
-#: extension.js:82
+#: extension.js:94
 msgid "App Grid"
 msgstr "Toepassingsrooster"
 
-#: extension.js:86 PrefsLib/adw.js:314
-msgid "Software Center"
-msgstr "Softwarecentrum"
+#: extension.js:95
+msgid "Files"
+msgstr "Bestanden"
 
-#: extension.js:88 PrefsLib/adw.js:332
-msgid "System Monitor"
-msgstr ""
+#: extension.js:99
+msgid "Steam"
+msgstr "Steam"
 
-#: extension.js:89 PrefsLib/adw.js:294
+#: extension.js:101
+msgid "Lutris"
+msgstr "Lutris"
+
+#: extension.js:103
+msgid "Return to Gaming Mode"
+msgstr "Terugkeren naar gamemodus"
+
+#: extension.js:109
+msgid "Bazaar"
+msgstr "Bazaar"
+
+#: extension.js:112
+msgid "Warehouse"
+msgstr "Warehouse"
+
+#: extension.js:114
+msgid "Extension Manager"
+msgstr "Uitbreidingenbeheer"
+
+#: extension.js:118
+msgid "Mission Center"
+msgstr "Mission Center"
+
+#: extension.js:119 PrefsLib/adw.js:294
 msgid "Terminal"
 msgstr "Terminalvenster"
 
-#: extension.js:90
-msgid "Extensions"
-msgstr "Uitbreidingen"
+#: extension.js:121
+msgid "DistroShelf"
+msgstr "DistroShelf"
 
-#: extension.js:94
+#: extension.js:125
 msgid "Force Quit App"
 msgstr "Toepassing afsluiten…"
 
-#: extension.js:99
+#: extension.js:130
 msgid "Sleep"
 msgstr "Slaapstand"
 
-#: extension.js:100
+#: extension.js:131
 msgid "Restart..."
 msgstr "Herstarten…"
 
-#: extension.js:101
+#: extension.js:132
 msgid "Shut Down..."
 msgstr "Afsluiten…"
 
-#: extension.js:105 extension.js:110
+#: extension.js:136 extension.js:142
 msgid "Lock Screen"
 msgstr "Scherm vergrendelen"
 
-#: extension.js:107
-msgid "Log Out..."
-msgstr "Afmelden…"
+#: extension.js:146
+msgid "System Update"
+msgstr "Systeemupdate"
+
+#: extension.js:147
+msgid "About My System"
+msgstr "Over deze computer"
+
+#: PrefsLib/adw.js:36
+msgid "Icon"
+msgstr "Pictogram"
 
 #: PrefsLib/adw.js:41
 msgid "Symbolic Icons"
@@ -97,6 +125,10 @@ msgstr ""
 #: PrefsLib/adw.js:195
 msgid "Select a Custom Icon"
 msgstr ""
+
+#: PrefsLib/adw.js:233
+msgid "Other Options"
+msgstr "Overige opties"
 
 #: PrefsLib/adw.js:238
 msgid "Change Defaults"
@@ -138,71 +170,97 @@ msgstr "GNOME-uitbreidingen"
 msgid "Extensions Manager"
 msgstr "Uitbreidingenbeheer"
 
+#: PrefsLib/adw.js:314
+msgid "Software Center"
+msgstr "Softwarecentrum"
+
+#: PrefsLib/adw.js:332
+msgid "System Monitor"
+msgstr ""
+
 #: PrefsLib/adw.js:350
 msgid "Enable Power Options"
 msgstr "Afsluitopties tonen"
 
 #: PrefsLib/adw.js:365
+msgid "Enable Return to Gamemode Option"
+msgstr "Optie voor terugkeren naar gamemodus inschakelen"
+
+#: PrefsLib/adw.js:380
 msgid "Hide Force Quit option"
 msgstr "Toepassing gedwongen afsluiten verbergen"
 
-#: PrefsLib/adw.js:382
+#: PrefsLib/adw.js:397
 msgid "Show Lock Screen option"
 msgstr "Vergrendelschermoptie tonen"
 
-#: PrefsLib/adw.js:398
+#: PrefsLib/adw.js:413
 msgid "Hide Software Centre option"
 msgstr "Softwarecentrumoptie verbergen"
 
-#: PrefsLib/adw.js:414
+#: PrefsLib/adw.js:429
 #, fuzzy
 msgid "Show Activities Button"
 msgstr "Activiteiten"
 
-#: PrefsLib/adw.js:430
+#: PrefsLib/adw.js:445
 msgid "Hide Icon Shadow"
 msgstr ""
 
-#: PrefsLib/adw.js:471 PrefsLib/adw.js:476
+#: PrefsLib/adw.js:461
+msgid "Show Lutris option"
+msgstr "Lutris-optie tonen"
+
+#: PrefsLib/adw.js:477
+msgid "Show Steam option"
+msgstr "Steam-optie tonen"
+
+#: PrefsLib/adw.js:523 PrefsLib/adw.js:528
 msgid "About"
 msgstr "Over"
 
-#: PrefsLib/adw.js:500
+#: PrefsLib/adw.js:552
 msgid "Logo Menu"
 msgstr "Logomenu"
 
-#: PrefsLib/adw.js:507
+#: PrefsLib/adw.js:559
 msgid "Quick access menu for GNOME"
 msgstr "Snelletoegangmenu voor GNOME"
 
-#: PrefsLib/adw.js:524
+#: PrefsLib/adw.js:576
 msgid "Logo Menu Version"
 msgstr "Logomenu-versie"
 
-#: PrefsLib/adw.js:536
+#: PrefsLib/adw.js:588
 msgid "GNOME Version"
 msgstr "GNOME-versie"
 
-#: PrefsLib/adw.js:543
+#: PrefsLib/adw.js:595
 msgid "Created with love by"
 msgstr "Met liefde gemaakt door"
 
-#: PrefsLib/adw.js:550
+#: PrefsLib/adw.js:602
 msgid "Matrix/Element room"
 msgstr "Matrix-/Elementkamer"
 
-#: PrefsLib/adw.js:566
+#: PrefsLib/adw.js:618
 msgid "Contributors"
 msgstr ""
 
-#: PrefsLib/adw.js:583
+#: PrefsLib/adw.js:635
 msgid "This program comes with absolutely no warranty."
 msgstr ""
 
-#: PrefsLib/adw.js:584
+#: PrefsLib/adw.js:636
 #, javascript-format
 msgid "See the %sGNU General Public License, version 2 or later%s for details."
 msgstr ""
+
+#~ msgid "Extensions"
+#~ msgstr "Uitbreidingen"
+
+#~ msgid "Log Out..."
+#~ msgstr "Afmelden…"
 
 #~ msgid "Software Center..."
 #~ msgstr "Softwarecentrum…"
@@ -210,17 +268,9 @@ msgstr ""
 #~ msgid "Github"
 #~ msgstr "GitHub"
 
-#~ msgid "Icon"
-#~ msgstr "Pictogram"
-
 #~ msgid ""
 #~ "<span size=\"small\">This program comes with absolutely no warranty.\n"
-#~ "See the <a href=\"https://gnu.org/licenses/old-licenses/gpl-2.0."
-#~ "html\">GNU General Public License, version 2 or later</a> for details.</"
-#~ "span>"
+#~ "See the <a href=\"https://gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU General Public License, version 2 or later</a> for details.</span>"
 #~ msgstr ""
-#~ "<span size=\"small\">Deze toepassing wordt zonder enige vorm van garantie "
-#~ "geleverd.\n"
-#~ "Bekijk voor meer informatie de <a href=\"https://gnu.org/licenses/old-"
-#~ "licenses/gpl-2.0.html\">GNU General Public License, versie 2 of nieuwer</"
-#~ "a>.</span>"
+#~ "<span size=\"small\">Deze toepassing wordt zonder enige vorm van garantie geleverd.\n"
+#~ "Bekijk voor meer informatie de <a href=\"https://gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU General Public License, versie 2 of nieuwer</a>.</span>"

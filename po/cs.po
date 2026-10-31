@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Logo Menu 22.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-19 01:47+0530\n"
+"POT-Creation-Date: 2026-08-03 01:20-0700\n"
 "PO-Revision-Date: 2024-04-26 18:45+2\n"
 "Last-Translator: Karel Mašek <masekkarel@vivaldi.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,57 +17,85 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: extension.js:75
-msgid "About My System"
-msgstr "Nastavení"
-
-#: extension.js:80
+#: extension.js:92
 msgid "Activities"
 msgstr "Aktivity"
 
-#: extension.js:82
+#: extension.js:94
 msgid "App Grid"
 msgstr "Aplikace"
 
-#: extension.js:86 PrefsLib/adw.js:314
-msgid "Software Center"
-msgstr "Software"
+#: extension.js:95
+msgid "Files"
+msgstr "Soubory"
 
-#: extension.js:88 PrefsLib/adw.js:332
-msgid "System Monitor"
-msgstr "Sledování systému"
+#: extension.js:99
+msgid "Steam"
+msgstr "Steam"
 
-#: extension.js:89 PrefsLib/adw.js:294
+#: extension.js:101
+msgid "Lutris"
+msgstr "Lutris"
+
+#: extension.js:103
+msgid "Return to Gaming Mode"
+msgstr "Vrátit se do herního režimu"
+
+#: extension.js:109
+msgid "Bazaar"
+msgstr "Bazaar"
+
+#: extension.js:112
+msgid "Warehouse"
+msgstr "Warehouse"
+
+#: extension.js:114
+msgid "Extension Manager"
+msgstr "Správce rozšíření"
+
+#: extension.js:118
+msgid "Mission Center"
+msgstr "Mission Center"
+
+#: extension.js:119 PrefsLib/adw.js:294
 msgid "Terminal"
 msgstr "Terminál"
 
-#: extension.js:90
-msgid "Extensions"
-msgstr "Rozšíření"
+#: extension.js:121
+msgid "DistroShelf"
+msgstr "DistroShelf"
 
-#: extension.js:94
+#: extension.js:125
 msgid "Force Quit App"
 msgstr "Vynutit ukončení aplikace"
 
-#: extension.js:99
+#: extension.js:130
 msgid "Sleep"
 msgstr "Uspat do paměti"
 
-#: extension.js:100
+#: extension.js:131
 msgid "Restart..."
 msgstr "Restartovat..."
 
-#: extension.js:101
+#: extension.js:132
 msgid "Shut Down..."
 msgstr "Vypnout..."
 
-#: extension.js:105 extension.js:110
+#: extension.js:136 extension.js:142
 msgid "Lock Screen"
 msgstr "Uzamknout"
 
-#: extension.js:107
-msgid "Log Out..."
-msgstr "Odhlásit se..."
+#: extension.js:146
+msgid "System Update"
+msgstr "Aktualizace systému"
+
+#: extension.js:147
+msgid "About My System"
+msgstr "Nastavení"
+
+#: PrefsLib/adw.js:36
+msgid "Icon"
+msgstr "Ikona"
 
 #: PrefsLib/adw.js:41
 msgid "Symbolic Icons"
@@ -96,6 +124,10 @@ msgstr "Vybraná ikona"
 #: PrefsLib/adw.js:195
 msgid "Select a Custom Icon"
 msgstr "Zvolit vlastní tlačítko"
+
+#: PrefsLib/adw.js:233
+msgid "Other Options"
+msgstr "Další možnosti"
 
 #: PrefsLib/adw.js:238
 msgid "Change Defaults"
@@ -137,71 +169,96 @@ msgstr "GNOME Rozšíření"
 msgid "Extensions Manager"
 msgstr "Správce rozšíření"
 
+#: PrefsLib/adw.js:314
+msgid "Software Center"
+msgstr "Software"
+
+#: PrefsLib/adw.js:332
+msgid "System Monitor"
+msgstr "Sledování systému"
+
 #: PrefsLib/adw.js:350
 msgid "Enable Power Options"
 msgstr "Zobrazit možnosti napájení"
 
 #: PrefsLib/adw.js:365
+msgid "Enable Return to Gamemode Option"
+msgstr "Povolit možnost návratu do herního režimu"
+
+#: PrefsLib/adw.js:380
 msgid "Hide Force Quit option"
 msgstr "Skrýt Vynutit ukončení"
 
-#: PrefsLib/adw.js:382
+#: PrefsLib/adw.js:397
 msgid "Show Lock Screen option"
 msgstr "Zobrazovat tlačítko Uzamknout"
 
-#: PrefsLib/adw.js:398
+#: PrefsLib/adw.js:413
 msgid "Hide Software Centre option"
 msgstr "Nezobrazovat Software"
 
-#: PrefsLib/adw.js:414
+#: PrefsLib/adw.js:429
 msgid "Show Activities Button"
 msgstr "Tlačítko Zobrazit aktivity"
 
-#: PrefsLib/adw.js:430
+#: PrefsLib/adw.js:445
 msgid "Hide Icon Shadow"
 msgstr "Skrýt stín ikony"
 
-#: PrefsLib/adw.js:471 PrefsLib/adw.js:476
+#: PrefsLib/adw.js:461
+msgid "Show Lutris option"
+msgstr "Zobrazit možnost Lutris"
+
+#: PrefsLib/adw.js:477
+msgid "Show Steam option"
+msgstr "Zobrazit možnost Steam"
+
+#: PrefsLib/adw.js:523 PrefsLib/adw.js:528
 msgid "About"
 msgstr "Info:"
 
-#: PrefsLib/adw.js:500
+#: PrefsLib/adw.js:552
 msgid "Logo Menu"
 msgstr "Logo Menu"
 
-#: PrefsLib/adw.js:507
+#: PrefsLib/adw.js:559
 msgid "Quick access menu for GNOME"
 msgstr "Rychlý přístup pro GNOME"
 
-#: PrefsLib/adw.js:524
+#: PrefsLib/adw.js:576
 msgid "Logo Menu Version"
 msgstr "Verze Logo Menu"
 
-#: PrefsLib/adw.js:536
+#: PrefsLib/adw.js:588
 msgid "GNOME Version"
 msgstr "Verze GNOME"
 
-#: PrefsLib/adw.js:543
+#: PrefsLib/adw.js:595
 msgid "Created with love by"
 msgstr "Vytvořil s láskou:"
 
-#: PrefsLib/adw.js:550
+#: PrefsLib/adw.js:602
 msgid "Matrix/Element room"
 msgstr "Místnost Matrix/Element"
 
-#: PrefsLib/adw.js:566
+#: PrefsLib/adw.js:618
 msgid "Contributors"
 msgstr "Přispěvatelé"
 
-#: PrefsLib/adw.js:583
+#: PrefsLib/adw.js:635
 msgid "This program comes with absolutely no warranty."
 msgstr "Na tento program se nevztahuje žádná záruka."
 
-#: PrefsLib/adw.js:584
+#: PrefsLib/adw.js:636
 #, javascript-format
 msgid "See the %sGNU General Public License, version 2 or later%s for details."
-msgstr ""
-"Tento software spadá pod %sGNU General Public License, version 2 or later%s."
+msgstr "Tento software spadá pod %sGNU General Public License, version 2 or later%s."
+
+#~ msgid "Extensions"
+#~ msgstr "Rozšíření"
+
+#~ msgid "Log Out..."
+#~ msgstr "Odhlásit se..."
 
 #~ msgid "Software Center..."
 #~ msgstr "Software..."

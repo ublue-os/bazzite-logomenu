@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Logo Menu 18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-19 01:47+0530\n"
+"POT-Creation-Date: 2026-08-03 01:20-0700\n"
 "PO-Revision-Date: 2025-04-22 21:27+0200\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <traduc@traduc.org>\n"
@@ -17,57 +17,85 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.4.4\n"
 
-#: extension.js:75
-msgid "About My System"
-msgstr "À propos de mon système"
-
-#: extension.js:80
+#: extension.js:92
 msgid "Activities"
 msgstr "Activités"
 
-#: extension.js:82
+#: extension.js:94
 msgid "App Grid"
 msgstr "Grille d’applications"
 
-#: extension.js:86 PrefsLib/adw.js:314
-msgid "Software Center"
-msgstr "Centre de logiciels"
+#: extension.js:95
+msgid "Files"
+msgstr "Fichiers"
 
-#: extension.js:88 PrefsLib/adw.js:332
-msgid "System Monitor"
-msgstr "Moniteur système"
+#: extension.js:99
+msgid "Steam"
+msgstr "Steam"
 
-#: extension.js:89 PrefsLib/adw.js:294
+#: extension.js:101
+msgid "Lutris"
+msgstr "Lutris"
+
+#: extension.js:103
+msgid "Return to Gaming Mode"
+msgstr "Revenir au mode jeu"
+
+#: extension.js:109
+msgid "Bazaar"
+msgstr "Bazaar"
+
+#: extension.js:112
+msgid "Warehouse"
+msgstr "Warehouse"
+
+#: extension.js:114
+msgid "Extension Manager"
+msgstr "Gestionnaire d’extensions"
+
+#: extension.js:118
+msgid "Mission Center"
+msgstr "Mission Center"
+
+#: extension.js:119 PrefsLib/adw.js:294
 msgid "Terminal"
 msgstr "Terminal"
 
-#: extension.js:90
-msgid "Extensions"
-msgstr "Extensions"
+#: extension.js:121
+msgid "DistroShelf"
+msgstr "DistroShelf"
 
-#: extension.js:94
+#: extension.js:125
 msgid "Force Quit App"
 msgstr "Quitter l’application de force"
 
-#: extension.js:99
+#: extension.js:130
 msgid "Sleep"
 msgstr "Mettre en veille"
 
-#: extension.js:100
+#: extension.js:131
 msgid "Restart..."
 msgstr "Redémarrer..."
 
-#: extension.js:101
+#: extension.js:132
 msgid "Shut Down..."
 msgstr "Éteindre..."
 
-#: extension.js:105 extension.js:110
+#: extension.js:136 extension.js:142
 msgid "Lock Screen"
 msgstr "Verrouiller l’écran"
 
-#: extension.js:107
-msgid "Log Out..."
-msgstr "Se déconnecter..."
+#: extension.js:146
+msgid "System Update"
+msgstr "Mise à jour du système"
+
+#: extension.js:147
+msgid "About My System"
+msgstr "À propos de mon système"
+
+#: PrefsLib/adw.js:36
+msgid "Icon"
+msgstr "Icône"
 
 #: PrefsLib/adw.js:41
 msgid "Symbolic Icons"
@@ -96,6 +124,10 @@ msgstr "Icône sélectionnée"
 #: PrefsLib/adw.js:195
 msgid "Select a Custom Icon"
 msgstr "Sélectionnez une icône personnalisée"
+
+#: PrefsLib/adw.js:233
+msgid "Other Options"
+msgstr "Autres options"
 
 #: PrefsLib/adw.js:238
 msgid "Change Defaults"
@@ -137,79 +169,102 @@ msgstr "GNOME Extensions"
 msgid "Extensions Manager"
 msgstr "Gestionnaire d’extensions"
 
+#: PrefsLib/adw.js:314
+msgid "Software Center"
+msgstr "Centre de logiciels"
+
+#: PrefsLib/adw.js:332
+msgid "System Monitor"
+msgstr "Moniteur système"
+
 #: PrefsLib/adw.js:350
 msgid "Enable Power Options"
 msgstr "Activer les options d’alimentation"
 
 #: PrefsLib/adw.js:365
+msgid "Enable Return to Gamemode Option"
+msgstr "Activer l’option de retour au mode jeu"
+
+#: PrefsLib/adw.js:380
 msgid "Hide Force Quit option"
 msgstr "Masquer l’option Quitter de force"
 
-#: PrefsLib/adw.js:382
+#: PrefsLib/adw.js:397
 msgid "Show Lock Screen option"
 msgstr "Afficher l’option Verrouiller l’écran"
 
-#: PrefsLib/adw.js:398
+#: PrefsLib/adw.js:413
 msgid "Hide Software Centre option"
 msgstr "Masquer l’option Centre de logiciels"
 
-#: PrefsLib/adw.js:414
+#: PrefsLib/adw.js:429
 msgid "Show Activities Button"
 msgstr "Afficher le bouton Activités"
 
-#: PrefsLib/adw.js:430
+#: PrefsLib/adw.js:445
 msgid "Hide Icon Shadow"
 msgstr "Masquer l’ombre de l’icône"
 
-#: PrefsLib/adw.js:471 PrefsLib/adw.js:476
+#: PrefsLib/adw.js:461
+msgid "Show Lutris option"
+msgstr "Afficher l’option Lutris"
+
+#: PrefsLib/adw.js:477
+msgid "Show Steam option"
+msgstr "Afficher l’option Steam"
+
+#: PrefsLib/adw.js:523 PrefsLib/adw.js:528
 msgid "About"
 msgstr "À propos"
 
-#: PrefsLib/adw.js:500
+#: PrefsLib/adw.js:552
 msgid "Logo Menu"
 msgstr "Logo Menu"
 
-#: PrefsLib/adw.js:507
+#: PrefsLib/adw.js:559
 msgid "Quick access menu for GNOME"
 msgstr "Menu d’accès rapide pour GNOME"
 
-#: PrefsLib/adw.js:524
+#: PrefsLib/adw.js:576
 msgid "Logo Menu Version"
 msgstr "Version de Logo Menu"
 
-#: PrefsLib/adw.js:536
+#: PrefsLib/adw.js:588
 msgid "GNOME Version"
 msgstr "Version de GNOME"
 
-#: PrefsLib/adw.js:543
+#: PrefsLib/adw.js:595
 msgid "Created with love by"
 msgstr "Créé avec amour par"
 
-#: PrefsLib/adw.js:550
+#: PrefsLib/adw.js:602
 msgid "Matrix/Element room"
 msgstr "Salon Matrix/Element"
 
-#: PrefsLib/adw.js:566
+#: PrefsLib/adw.js:618
 msgid "Contributors"
 msgstr "Contributeur·rices"
 
-#: PrefsLib/adw.js:583
+#: PrefsLib/adw.js:635
 msgid "This program comes with absolutely no warranty."
 msgstr "Ce programme est fourni sans aucune garantie."
 
-#: PrefsLib/adw.js:584
+#: PrefsLib/adw.js:636
 #, javascript-format
 msgid "See the %sGNU General Public License, version 2 or later%s for details."
 msgstr "Consultez la %sGNU General Public License, version 2 ou ultérieure%s pour connaître les détails."
+
+#~ msgid "Extensions"
+#~ msgstr "Extensions"
+
+#~ msgid "Log Out..."
+#~ msgstr "Se déconnecter..."
 
 #~ msgid "Software Center..."
 #~ msgstr "Centre de logiciels..."
 
 #~ msgid "Github"
 #~ msgstr "Github"
-
-#~ msgid "Icon"
-#~ msgstr "Icône"
 
 #~ msgid ""
 #~ "<span size=\"small\">This program comes with absolutely no warranty.\n"
